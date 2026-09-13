@@ -1,0 +1,29 @@
+name: Bug report
+description: A number is accepted or rejected incorrectly, or something doesn't work as documented
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Never paste real personal documents or phone numbers.** Use publicly documented examples or generated test numbers.
+  - type: input
+    id: country
+    attributes:
+      label: Country and document / phone
+      placeholder: BR cnpj, CO nit, MX phone…
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Input, options, expected vs actual result. Link the official algorithm or example if the checksum is wrong.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      placeholder: nestjs-intl-validators 0.1.0, class-validator 0.15.1, @nestjs/common 12.0.1, Node 22.20
+    validations:
+      required: true

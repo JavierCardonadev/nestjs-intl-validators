@@ -1,0 +1,21 @@
+name: Document request
+description: Ask for a country or identifier that isn't supported
+labels: [document]
+body:
+  - type: input
+    id: document
+    attributes:
+      label: Country and document
+      placeholder: CO — Cédula de extranjería
+    validations:
+      required: true
+  - type: input
+    id: spec
+    attributes:
+      label: Official specification
+      description: Link to the authority's format or check-digit algorithm.
+  - type: textarea
+    id: examples
+    attributes:
+      label: Public example numbers
+      description: Only publicly documented examples, never real personal data.

@@ -1,0 +1,116 @@
+{
+  "name": "nestjs-intl-validators",
+  "version": "0.1.0",
+  "description": "Country-aware validation for NestJS and class-validator: tax IDs, national IDs and phone numbers for 90+ countries (CPF, CNPJ, NIT, RUT, RFC, CURP, CUIT, RUC, SSN, NIF…).",
+  "keywords": [
+    "nestjs",
+    "class-validator",
+    "validation",
+    "tax-id",
+    "national-id",
+    "phone",
+    "e164",
+    "cpf",
+    "cnpj",
+    "nit",
+    "rut",
+    "rfc",
+    "curp",
+    "cuit",
+    "ruc",
+    "ssn",
+    "vat",
+    "latam",
+    "typescript"
+  ],
+  "author": "Javier Cardona (https://javiercardona.dev)",
+  "license": "MIT",
+  "homepage": "https://github.com/JavierCardonadev/nestjs-intl-validators#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavierCardonadev/nestjs-intl-validators.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JavierCardonadev/nestjs-intl-validators/issues"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./core": {
+      "types": "./dist/core/index.d.ts",
+      "default": "./dist/core/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "README.es.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:cov": "vitest run --coverage",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "dependencies": {
+    "libphonenumber-js": "^1.13.13",
+    "stdnum": "^1.12.6"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^11.0.0 || ^12.0.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0 || ^0.15.0"
+  },
+  "peerDependenciesMeta": {
+    "@nestjs/common": {
+      "optional": true
+    },
+    "class-transformer": {
+      "optional": true
+    },
+    "class-validator": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@nestjs/common": "^12.0.1",
+    "@nestjs/core": "^12.0.1",
+    "@nestjs/platform-express": "^12.0.1",
+    "@nestjs/testing": "^12.0.1",
+    "@swc/core": "^1.16.2",
+    "@types/node": "^22.20.2",
+    "@types/supertest": "^7.2.1",
+    "@vitest/coverage-v8": "^5.0.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.15.1",
+    "eslint": "^10.10.0",
+    "globals": "^17.12.0",
+    "prettier": "^3.9.6",
+    "reflect-metadata": "^0.2.2",
+    "rimraf": "^6.1.3",
+    "rxjs": "^7.8.2",
+    "supertest": "^7.2.2",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.70.0",
+    "unplugin-swc": "^1.6.0",
+    "vitest": "^5.0.0"
+  }
+}
