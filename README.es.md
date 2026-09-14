@@ -172,7 +172,7 @@ Issues y PRs bienvenidos: ver [CONTRIBUTING.md](CONTRIBUTING.md). Los errores de
 
 ## ¿Necesitas ayuda con un producto para LATAM?
 
-Soy Javier Cardona, desarrollador full-stack en Colombia. Construyo backends para empresas que venden en Latinoamérica: pagos, facturación electrónica, onboarding/KYC e integraciones. Mira también [nestjs-latam-payments](https://github.com/JavierCardonadev/nestjs-latam-payments).
+Soy Javier Cardona, desarrollador full-stack en Colombia. Construyo backends para empresas que venden en Latinoamérica: pagos, facturación electrónica, onboarding/KYC e integraciones. Mira también [nestjs-latam-payments](https://github.com/JavierCardonadev/nestjs-latam-payments), [nestjs-einvoicing](https://github.com/JavierCardonadev/nestjs-einvoicing), [nestjs-whatsapp](https://github.com/JavierCardonadev/nestjs-whatsapp) y [nestjs-shipping](https://github.com/JavierCardonadev/nestjs-shipping).
 
 👉 **[javiercardona.dev](https://javiercardona.dev)**
 
