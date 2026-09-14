@@ -207,7 +207,7 @@ Issues and PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Algorithm bug
 
 ## Need help with a LATAM product?
 
-I'm Javier Cardona, a full-stack developer in Colombia. I build backends for companies selling in Latin America: payments, e-invoicing, onboarding/KYC flows and integrations. See also [nestjs-latam-payments](https://github.com/JavierCardonadev/nestjs-latam-payments).
+I'm Javier Cardona, a full-stack developer in Colombia. I build backends for companies selling in Latin America: payments, e-invoicing, onboarding/KYC flows and integrations. See also [nestjs-latam-payments](https://github.com/JavierCardonadev/nestjs-latam-payments), [nestjs-einvoicing](https://github.com/JavierCardonadev/nestjs-einvoicing), [nestjs-whatsapp](https://github.com/JavierCardonadev/nestjs-whatsapp) and [nestjs-shipping](https://github.com/JavierCardonadev/nestjs-shipping).
 
 👉 **[javiercardona.dev](https://javiercardona.dev)**
 
