@@ -70,7 +70,7 @@
     "prepublishOnly": "npm run typecheck && npm test && npm run build"
   },
   "dependencies": {
-    "libphonenumber-js": "^1.13.13",
+    "libphonenumber-js": "^1.13.14",
     "stdnum": "^1.12.6"
   },
   "peerDependencies": {
